@@ -1,0 +1,50 @@
+{
+  "$GMProject":"v1",
+  "%Name":"Card Game",
+  "AudioGroups":[
+    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+  ],
+  "configs":{
+    "children":[],
+    "name":"Default",
+  },
+  "defaultScriptType":1,
+  "Folders":[
+    {"$GMFolder":"","%Name":"Game","folderPath":"folders/Game.yy","name":"Game","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Placeholders","folderPath":"folders/Sprites/Placeholders.yy","name":"Placeholders","resourceType":"GMFolder","resourceVersion":"2.0",},
+  ],
+  "ForcedPrefabProjectReferences":[],
+  "IncludedFiles":[],
+  "isEcma":false,
+  "LibraryEmitters":[],
+  "MetaData":{
+    "IDEVersion":"2026.0.0.16",
+  },
+  "name":"Card Game",
+  "resources":[
+    {"id":{"name":"fntTest","path":"fonts/fntTest/fntTest.yy",},},
+    {"id":{"name":"objAllCards","path":"objects/objAllCards/objAllCards.yy",},},
+    {"id":{"name":"objCard","path":"objects/objCard/objCard.yy",},},
+    {"id":{"name":"objDeck","path":"objects/objDeck/objDeck.yy",},},
+    {"id":{"name":"objEnemy","path":"objects/objEnemy/objEnemy.yy",},},
+    {"id":{"name":"objPlayer","path":"objects/objPlayer/objPlayer.yy",},},
+    {"id":{"name":"objStateMachine","path":"objects/objStateMachine/objStateMachine.yy",},},
+    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"lib_dice","path":"scripts/lib_dice/lib_dice.yy",},},
+    {"id":{"name":"sprCard","path":"sprites/sprCard/sprCard.yy",},},
+    {"id":{"name":"sprDeckPlaceholder","path":"sprites/sprDeckPlaceholder/sprDeckPlaceholder.yy",},},
+    {"id":{"name":"sprEnemyPlaceholder","path":"sprites/sprEnemyPlaceholder/sprEnemyPlaceholder.yy",},},
+    {"id":{"name":"sprPlayerPlaceholder","path":"sprites/sprPlayerPlaceholder/sprPlayerPlaceholder.yy",},},
+    {"id":{"name":"sprRavingWoman","path":"sprites/sprRavingWoman/sprRavingWoman.yy",},},
+  ],
+  "resourceType":"GMProject",
+  "resourceVersion":"2.0",
+  "RoomOrderNodes":[
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+  ],
+  "templateType":"game",
+  "TextureGroups":[
+    {"$GMTextureGroup":"","%Name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"Default","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
+  ],
+}
